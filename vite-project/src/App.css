@@ -31,7 +31,7 @@
   background: transparent;
   border-bottom: 3px solid white;
   transition-delay: 2s;
-  transition: 3s;
+  transition: 3 s;
 }
 .logo-name{
   font-size: 14px;

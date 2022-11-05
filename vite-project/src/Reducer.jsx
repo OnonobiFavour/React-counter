@@ -23,7 +23,6 @@ const setValue = (state, action) =>{
       }
       
     const [state, dispatch] = useReducer(setValue, {value: 0});
-    
 
     return (
         <section className="reducer">
