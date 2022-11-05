@@ -6,12 +6,12 @@
 
 /* 'home' style-sheet */
 .nav{
-  width: 100%;
+  width: screen;
   /* height: 65px; */
   background-color: blue;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   color: white;
 }
 .nav ul{
@@ -20,9 +20,9 @@
   align-items: center;
 }
 .nav ul li{
-  margin: 1.5rem;
+  margin: 1rem;
   list-style-type: none;
-  font-size: 17px;
+  font-size: 15px;
 }
 .nav ul li a{
   color: white;
@@ -31,12 +31,11 @@
   background: transparent;
   border-bottom: 3px solid white;
   transition-delay: 2s;
-  transition: 3 s;
+  transition: 3s;
 }
 .logo-name{
   font-size: 14px;
   font-weight: bolder;
-  padding-left: 1rem;
 }
 .header{
   display: flex;
@@ -45,8 +44,8 @@
   align-items: center;
   justify-content: center;
   background-color: blue;
-  width: 100vw;
-  height: 100vh;
+  width: screen;
+  height: screen;
 }
 .h1-wrapper{
   display: flex;
